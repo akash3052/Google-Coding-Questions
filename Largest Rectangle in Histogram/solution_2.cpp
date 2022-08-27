@@ -1,3 +1,5 @@
+// Striver's Solution. For better understanding see solution 1
+
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -11,6 +13,7 @@ public:
             if(s.empty())
                 leftSmaller[i] = 0;
             else
+                // No need to add +1 to top. see solution 1
                 leftSmaller[i] = s.top()+1;
             s.push(i);
         }
