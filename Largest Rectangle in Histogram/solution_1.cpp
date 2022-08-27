@@ -1,3 +1,6 @@
+// Anuj Bhaiya solution (Better than solution_2)..Easy to understand. 
+// For more understanding see : https://www.youtube.com/watch?v=vhUxKxiconE&ab_channel=AnujBhaiya
+
 class Solution {
 public:
     vector<int> prevSmaller(vector<int> &heights, int n){
