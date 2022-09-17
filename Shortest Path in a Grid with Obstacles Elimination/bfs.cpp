@@ -65,5 +65,17 @@ Approach
 4. Our final answer will be the no of level if we will be able to reach till (row-1)(col-1), otherwise -1.
 
 
+Time Complexity
+O(m*n*k) time complexity
+This is because for every cell (m*n), in the worst case we have to put that cell into the queue/bfs k times.
+  
+Space Complexity
+O(m*n*k) space complexity
+This is because for every cell (m*n), in the worst case we have to put that cell into the queue/bfs k times 
+which means we need to worst case store all of those steps/paths in the visited set.
+
+  
+  
+  
   
   
